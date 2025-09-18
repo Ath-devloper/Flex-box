@@ -37,7 +37,7 @@ a{
     padding: 0px 140px;
     display: flex;
     background-color: #1f2937;
-    height: 600px;
+    height:629px;
     justify-content: space-between;
     align-items: center;
     
@@ -49,6 +49,7 @@ h1{
     font-size: 48px;
 }
 p{
+    padding-top: 10px;
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
@@ -61,3 +62,119 @@ p{
 .text{
     height: 400px;
 }
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #3882f6;
+    height: 40px;
+    width: 120px;
+    margin-top: 35px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.second{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    padding: 50 px 100px;
+
+}
+.info{
+    padding-top:50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+.four_pic{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    gap: 20px;
+
+
+}
+.text_one{
+    display: block;
+}
+
+.third p{
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    text-align: center;
+    font-style:italic;
+    font-weight: 300;
+    font-size: xx-large;
+
+}
+.third footer {
+  display: flex;
+  justify-content: flex-end;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right; 
+  
+}
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.cta-content {
+  background-color: #3b82f6; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  border-radius: 8px;
+  width: 70%;
+  max-width: 900px;
+}
+
+.cta-text h2 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cta-text p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.cta-btn {
+  padding: 8px 18px;
+  font-size: 14px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1f2937; 
+  padding: 20px;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+
